@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony的网页</title>
+</head>
+<body>
+    <div class="madebyzhao">
+
+
+        <div class="title">Tony的网页</div>
+
+        <div class="todo-form">
+            <input class="todo-input" type="text" placeholder="启动什么">
+            <div class="todo-button">启动</div>
+        </div>
+        
+
+    </div>
+    
+
+
+<style>
+    .madebyzhao{
+   width: 98%;
+   height: 500px;
+   background-color: #ffff;
+   margin-top: 40px;
+   margin-left: 1%;
+   border-radius: 5px;
+
+        padding-top: 30px;
+        padding-left: 30px;
+
+        box-sizing: border-box;
+    }
+
+    .title{
+         font-size: 30px;
+         font-weight: 700;
+         text-align: center;
+         /* margin-top: 40px; */
+    }
+
+    body{
+        
+        background: linear-gradient(to right,  rgb(113, 65, 168),
+        rgba(44, 114, 251, 1)); /* 从紫色到蓝色渐变 */
+    }
+
+.todo-form{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.todo-input{
+    border: 1px solid #dfe1e5;
+    outline:none;
+    width:60%;
+    height: 50 px;
+    border-radius: 20px 0 0 20px;
+
+    padding: 15px;
+}
+
+.todo-button{
+    width:100px;
+    height:52px;
+    border-radius: 0 20px 20px 0;
+line-height:52px;/*行高和盒子一样高就竖向居中了*/
+
+    text-align: center;
+    background: linear-gradient(to right,  rgb(113, 65, 168),
+        rgba(44, 114, 251, 1)); /* 从紫色到蓝色渐变 */
+        color:#ffff;
+
+        cursor: pointer;
+        user-select: none;
+}
+
+</style>
+
+    
+</body>
+</html>
